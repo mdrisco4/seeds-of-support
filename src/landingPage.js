@@ -155,7 +155,7 @@ const LandingPage = () => (
         <BoardDescription>
           Our CEO is Jake Sassaman. Jake has been in the Bay Area Community for
           over 10 years and is active in both Oakland Town Hall and the cannabis
-          community. A repected member of the community, Jake set up this
+          business community. A respected and engaging member of the bay area, Jake set up this
           project to help vulnerable citizens in need.
         </BoardDescription>
       </div>
