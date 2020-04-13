@@ -84,13 +84,13 @@ font-size: 24px;
 }
 `;
 
-const ContatctInfo = styled.div`
+const ContactInfo = styled.div`
 font-size: 24px;
 font-weight: bold;
 text-align: center;
 @media (min-width: 650px) {
 text-align: left;
-padding-left: 20px;
+/* margin-left: 4%; */
 }
 @media (min-width: 850px) {
 font-size: 32px;
@@ -107,6 +107,7 @@ flex-direction: column;
 justify-content: center;
 @media (min-width: 650px) {
 flex-direction: row;
+
 }
 @media (min-width: 850px) {
 
@@ -120,6 +121,7 @@ const FooterLogo = styled.img`
 @media (min-width: 650px) {
 height: 100px;
 width: 100px;
+margin: 0;
 }
 @media (min-width: 850px) {
     height: 140px;
@@ -185,9 +187,9 @@ const LandingPage = () => (
     <SectionTitle>Contact Us</SectionTitle>
     <FooterContainer>
     <div>
-    <ContatctInfo>560 Thomas L. Berkley Way</ContatctInfo>
-    <ContatctInfo>Oakland, CA 94612</ContatctInfo>
-    <ContatctInfo>(510) 354-9872</ContatctInfo>
+    <ContactInfo>560 Thomas L. Berkley Way</ContactInfo>
+    <ContactInfo>Oakland, CA 94612</ContactInfo>
+    <ContactInfo>(510) 354-9872</ContactInfo>
     </div>
     <FooterLogo src="https://i.imgur.com/3ei96FN.png" alt="logo" className="logo"/>
     </FooterContainer>
