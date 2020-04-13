@@ -4,10 +4,31 @@
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-links {
   padding-top: 12px;
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+}
+
+@media (min-width: 800px) {
+.header-links {
+  font-size: 40px;
+}
+}
+
+@media (min-width: 1150px) {
+  .header-links {
+    font-size: 36px;
+    padding-top: 60px;
+  }
+  .logo {
+    margin: 0;
+  }
 }

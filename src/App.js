@@ -5,8 +5,17 @@ import LandingPage from './landingPage';
 
 const NavBar = styled.div`
  display: flex;
- justify-content: space-between;
+ flex-direction: column;
  padding: 0 20px;
+ @media (min-width: 800px) {
+  justify-content: space-between;
+}
+@media (min-width: 1150px) {
+flex-direction: row;
+justify-content: space-between;
+padding: 20px 15px 0 15px;
+max-width: 1250px;
+}
 `
 
 function App() {
