@@ -90,7 +90,6 @@ font-weight: bold;
 text-align: center;
 @media (min-width: 650px) {
 text-align: left;
-/* margin-left: 4%; */
 }
 @media (min-width: 850px) {
 font-size: 32px;
@@ -179,7 +178,7 @@ const LandingPage = () => (
         <BoardDescription>
           Our CFO Laura is a certified accountant who spent 12 years working for
           The City of Oakland before switching to the private sector and
-          starting her own company, Belafont Acconting. Acitve in local
+          starting her own company, Belafont Acconting. Active in local
           volunteer work, Laura joined Seeds of Support to better the community
         </BoardDescription>
       </div>
