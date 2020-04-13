@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import styled from "styled-components"
 import './App.css';
+import LandingPage from './landingPage';
+
+const NavBar = styled.div`
+ display: flex;
+ justify-content: space-between;
+ padding: 0 20px;
+`
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <NavBar>
+        <img src="https://i.imgur.com/3ei96FN.png" alt="logo" className="logo"/>
+          <h1 className="header-links">About</h1>
+          <h1 className="header-links">Our Mission</h1>
+          <h1 className="header-links">Board of Directors</h1>
+          <h1 className="header-links">Contact</h1>
+        </NavBar>
+        <hr></hr>
       </header>
+      <LandingPage />
     </div>
   );
 }
