@@ -149,7 +149,7 @@ const LandingPage = () => (
     </MissionStatement>
     <SectionTitle>Board of Directors</SectionTitle>
     <BoardMemberContainer>
-      <BoardPhoto src="https://i.imgur.com/qnZG6lJ.png" />
+      <BoardPhoto src="https://i.imgur.com/RVGefKN.png" />
       <div>
         <BoardTitle>CEO: Jake Sassaman</BoardTitle>
         <BoardDescription>
@@ -161,7 +161,7 @@ const LandingPage = () => (
       </div>
     </BoardMemberContainer>
     <BoardMemberContainer>
-      <BoardPhoto src="https://i.imgur.com/AyPltrg.png" />
+      <BoardPhoto src="https://i.imgur.com/Qj8xvO8.jpg" />
       <div>
         <BoardTitle>COO: John P. Gennaro, JD</BoardTitle>
         <BoardDescription>
@@ -172,7 +172,7 @@ const LandingPage = () => (
       </div>
     </BoardMemberContainer>
     <BoardMemberContainer>
-      <BoardPhoto src="https://i.imgur.com/aFrLPiW.png" />
+      <BoardPhoto src="https://i.imgur.com/dOmiyM6.jpg" />
       <div>
         <BoardTitle>CFO: Laura Belafont, CPA</BoardTitle>
         <BoardDescription>
