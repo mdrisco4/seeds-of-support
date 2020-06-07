@@ -165,15 +165,16 @@ const LandingPage = () => (
       </div>
     </BoardMemberContainer>
     <BoardMemberContainer>
-      <BoardPhoto src="https://i.imgur.com/dOmiyM6.jpg" />
+      <BoardPhoto src="https://i.imgur.com/2xZ4epu.jpg" />
       <div>
         <BoardTitle>Board Member: Michael Driscoll</BoardTitle>
         <BoardDescription>
-          Michael Driscoll is an acting board member of S.O.S. A recent District
-          of Columbia transplant with familial ties throughout the state of
-          California, Michael has experience dealing with addiction in his
-          family and sought out S.O.S. to be a part of an organization with a
-          mission statement he felt he could get behind.
+          Michael Driscoll is a software developer and acting board member of
+          S.O.S. A recent District of Columbia transplant with familial ties
+          throughout the state of California, Michael has experience dealing
+          with addiction in his family and sought out S.O.S. to be a part of an
+          organization with a mission statement he felt he could get behind. We
+          are happy to have him contributing to our efforts.
         </BoardDescription>
       </div>
     </BoardMemberContainer>
